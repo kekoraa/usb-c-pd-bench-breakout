@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="none" stroke="#168577" stroke-width="1.5"/></marker></defs>
+<rect width="1440" height="760" fill="#f4f5f1"/>
+<text x="58" y="65" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#16342e">PD BENCH</text>
+<text x="58" y="121" font-family="Arial,sans-serif" font-size="43" font-weight="700" fill="#16342e">USB-C power, made accessible.</text>
+<text x="58" y="160" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#526860">Autonomous PD sink / 5–20 V request ceiling / 2 A output design target</text>
+<rect x="58" y="226" width="235" height="142" rx="8" fill="white" stroke="#aebfb7"/>
+<text x="80" y="262" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#16342e">USB-C INPUT</text>
+<text x="80" y="294" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">J1 receptacle</text>
+<text x="80" y="319" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">CC1 / CC2 negotiation</text>
+<text x="80" y="344" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">External PD source</text>
+<rect x="360" y="226" width="280" height="142" rx="8" fill="white" stroke="#aebfb7"/>
+<text x="382" y="262" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#16342e">FUSED BUS</text>
+<text x="382" y="294" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">F1 · 3 A backup fuse</text>
+<text x="382" y="319" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">U2 · 22 V transient clamp</text>
+<text x="382" y="344" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">C1 · input capacitor</text>
+<rect x="714" y="226" width="280" height="142" rx="8" fill="white" stroke="#aebfb7"/>
+<text x="736" y="262" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#16342e">CONTROLLED OUTPUT</text>
+<text x="736" y="294" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">Q1 · 40 V P-MOSFET</text>
+<text x="736" y="319" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">D1 · gate-source clamp</text>
+<text x="736" y="344" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">J4 · enable, default open</text>
+<rect x="1068" y="226" width="314" height="142" rx="8" fill="white" stroke="#aebfb7"/>
+<text x="1090" y="262" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#16342e">DC BREAKOUT</text>
+<text x="1090" y="294" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">J2 · screw terminal</text>
+<text x="1090" y="319" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">C3 + R10 · output decay</text>
+<text x="1090" y="344" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">TP2 / TP3 · measurement</text>
+<path d="M293,278 L360,278" stroke="#168577" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<path d="M640,278 L714,278" stroke="#168577" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<path d="M994,278 L1068,278" stroke="#168577" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<rect x="360" y="440" width="330" height="140" rx="8" fill="white" stroke="#aebfb7"/>
+<text x="382" y="476" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#16342e">PD CONTROLLER</text>
+<text x="382" y="508" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">U1 · HUSB238_002DD</text>
+<text x="382" y="533" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">R2 · 2.25 A request</text>
+<text x="382" y="558" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">R1 / C2 · local decoupling</text>
+<rect x="58" y="440" width="235" height="140" rx="8" fill="white" stroke="#aebfb7"/>
+<text x="80" y="476" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#16342e">PROFILE SELECT</text>
+<text x="80" y="508" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">J3 · one shunt</text>
+<text x="80" y="533" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">5 / 9 / 12 / 15 / 20 V</text>
+<text x="80" y="558" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">Open also requests 20 V</text>
+<rect x="1068" y="440" width="314" height="140" rx="8" fill="white" stroke="#aebfb7"/>
+<text x="1090" y="476" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#16342e">RAIL INDICATORS</text>
+<text x="1090" y="508" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">D2 · fused input present</text>
+<text x="1090" y="533" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">D3 · output present</text>
+<text x="1090" y="558" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">No contract or voltage readback</text>
+<path d="M293,510 L360,510" stroke="#168577" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<path d="M500,368 L500,440" stroke="#168577" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<path d="M175,368 L175,405 L380,405 L380,440 M690,505 L853,505 L853,368 M1225,368 L1225,440" stroke="#168577" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<text x="720" y="488" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#526860">Gate control</text>
+<text x="58" y="649" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#16342e">DESIGN STAGE · UNBUILT · PCB ROUTED</text>
+<text x="58" y="687" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#526860">Source-dependent profiles. No precision current limit or reverse-current blocking. Verify VOUT before a load.</text>
+<text x="58" y="722" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#526860">Architecture drawing · Revision 0.2 · September 2026</text>
+</svg>

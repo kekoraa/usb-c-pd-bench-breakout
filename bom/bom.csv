@@ -1,0 +1,30 @@
+Reference,Quantity,Value,Manufacturer,MPN,Footprint,Population,Notes
+J1,1,USB4105-GF-A,GCT,USB4105-GF-A,PD_Bench:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,Fit,USB-C power input; all VBUS and ground contacts used
+F1,1,3 A / 125 VDC,Littelfuse,0451003.MRL,PD_Bench:Fuse_Littelfuse-NANO2-451_453,Fit,One-time fuse; 2 A design load; not a 2 A current limiter
+U2,1,TVS2200DRVR,Texas Instruments,TVS2200DRVR,PD_Bench:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm,Fit,22 V VBUS transient suppressor
+C1,1,4.7 uF / 50 V,Murata,GRM31CR71H475KA12L,PD_Bench:C_1206_3216Metric,Fit,X7R input capacitor; check effective capacitance at 20 V
+R1,1,10 ohm,Yageo,RC0805FR-0710RL,PD_Bench:R_0805_2012Metric,Fit,Controller supply filter
+C2,1,1 uF / 50 V,TDK,C2012X7R1H105K125AB,PD_Bench:C_0805_2012Metric,Fit,Controller decoupling
+U1,1,HUSB238_002DD,Hynetek,HUSB238_002DD,PD_Bench:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm,Fit,Autonomous PD sink; SOP-prime emulation disabled
+R2,1,13.7 kohm 1%,Yageo,RC0805FR-0713K7L,PD_Bench:R_0805_2012Metric,Fit,2.25 A request leaves overhead for a 2 A output; not current sensing
+Q1,1,DMP4015SK3-13,Diodes Incorporated,DMP4015SK3-13,PD_Bench:TO-252-2,Fit,40 V P-MOSFET; G1 D2 S3; tab is drain
+R3,1,100 kohm,Yageo,RC0805FR-07100KL,PD_Bench:R_0805_2012Metric,Fit,Gate-source pull-up; holds output off without enable shunt
+D1,1,12 V gate clamp,Nexperia,BZT52-C12X,PD_Bench:D_SOD-123,Fit,Zener cathode to source; anode to gate
+R4,1,2.49 kohm / 0.25 W,Yageo,RC1206FR-072K49L,PD_Bench:R_1206_3216Metric,Fit,Limits gate sink and clamp current
+J4,1,OUTPUT ENABLE,Wurth Elektronik,61300211121,PD_Bench:PinHeader_1x02_P2.54mm_Vertical,Fit,Shunt fitted permits controller to turn on Q1; default open
+J2,1,DC OUTPUT,Phoenix Contact,1715022,"PD_Bench:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",Fit,2-way screw terminal; 5.00 mm pitch
+C3,1,1 uF / 50 V,TDK,C2012X7R1H105K125AB,PD_Bench:C_0805_2012Metric,Fit,Small output capacitor; large external load capacitance unqualified
+J3,1,VOLTAGE REQUEST,Wurth Elektronik,61301021121,PD_Bench:PinHeader_2x05_P2.54mm_Vertical,Fit,One shunt only; 1-2=5 V; parked 9-10=open=20 V
+R5,1,6.04 kohm 1%,Yageo,RC0805FR-076K04L,PD_Bench:R_0805_2012Metric,Fit,Voltage request resistor
+R6,1,10 kohm 1%,Yageo,RC0805FR-0710KL,PD_Bench:R_0805_2012Metric,Fit,Voltage request resistor
+R7,1,14 kohm 1%,Yageo,RC0805FR-0714KL,PD_Bench:R_0805_2012Metric,Fit,Voltage request resistor
+R8,1,6.8 kohm / 0.25 W,Yageo,RC1206FR-076K8L,PD_Bench:R_1206_3216Metric,Fit,Input LED current limit
+D2,1,INPUT / amber,Lite-On,LTST-C170KSKT,PD_Bench:LED_0805_2012Metric,Fit,Rail-present indicator; not contract status
+R9,1,6.8 kohm / 0.25 W,Yageo,RC1206FR-076K8L,PD_Bench:R_1206_3216Metric,Fit,Output LED current limit
+D3,1,OUTPUT / green,Lite-On,LTST-C170KGKT,PD_Bench:LED_0805_2012Metric,Fit,Output-present indicator; not voltage readback
+R10,1,10 kohm / 0.25 W,Yageo,RC1206FR-0710KL,PD_Bench:R_1206_3216Metric,Fit,Passive output discharge
+TP1,1,VBUS_FUSED,PCB,PCB pad,PD_Bench:TestPoint_Pad_D2.0mm,PCB feature,DMM / oscilloscope probe point; not a load connector
+TP2,1,VOUT,PCB,PCB pad,PD_Bench:TestPoint_Pad_D2.0mm,PCB feature,DMM / oscilloscope probe point; not a load connector
+TP3,1,GND,PCB,PCB pad,PD_Bench:TestPoint_Pad_D2.0mm,PCB feature,DMM / oscilloscope probe point; not a load connector
+SH1,1,2.54 mm shunt,Wurth Elektronik,60900213421,Accessory,Fit on J3 pins 1-2,Voltage selector; default 5 V
+SH2,1,2.54 mm shunt,Wurth Elektronik,60900213421,Accessory,Loose accessory,Output enable; leave J4 open by default

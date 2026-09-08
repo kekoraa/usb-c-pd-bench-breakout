@@ -1,0 +1,242 @@
+{
+  "kicad_version": "10.0.5",
+  "pcb_sha256": "f30707a2ad615f0dbae92ebc24cdf166ea4b26b2a7bdcc0c66b9c87f66474821",
+  "linked_pin_assignments": 89,
+  "physical_numbered_pads": 92,
+  "footprints": 31,
+  "track_segments": 112,
+  "vias": 48,
+  "vias_by_net": {
+    "/ENABLE_GATE": 1,
+    "/GND": 42,
+    "/PD_GATE": 1,
+    "/VBUS_RAW": 4
+  },
+  "copper_zones": [
+    {
+      "net": "/GND",
+      "layer": "F.Cu",
+      "filled_polygons": 1
+    },
+    {
+      "net": "/VOUT",
+      "layer": "F.Cu",
+      "filled_polygons": 1
+    },
+    {
+      "net": "/GND",
+      "layer": "B.Cu",
+      "filled_polygons": 1
+    }
+  ],
+  "mounting_keepouts": 4,
+  "track_lengths_mm": [
+    {
+      "net": "/CC1",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 15.3376
+    },
+    {
+      "net": "/CC2",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 13.5992
+    },
+    {
+      "net": "/ENABLE_GATE",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "length_mm": 29.2843
+    },
+    {
+      "net": "/ENABLE_GATE",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.5375
+    },
+    {
+      "net": "/GND",
+      "layer": "F.Cu",
+      "width_mm": 0.35,
+      "length_mm": 2.1375
+    },
+    {
+      "net": "/GND",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 18.001
+    },
+    {
+      "net": "/GND",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 3.39
+    },
+    {
+      "net": "/GND",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "length_mm": 5.0
+    },
+    {
+      "net": "/ISET",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 4.0267
+    },
+    {
+      "net": "/LED_IN_A",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 3.6
+    },
+    {
+      "net": "/LED_OUT_A",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 3.6
+    },
+    {
+      "net": "/MOS_GATE",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 15.1793
+    },
+    {
+      "net": "/PD_GATE",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "length_mm": 44.5018
+    },
+    {
+      "net": "/PD_GATE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.7321
+    },
+    {
+      "net": "/SET12",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 6.5475
+    },
+    {
+      "net": "/SET15",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 6.5475
+    },
+    {
+      "net": "/SET9",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 6.5475
+    },
+    {
+      "net": "/VBUS_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.35,
+      "length_mm": 1.8375
+    },
+    {
+      "net": "/VBUS_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 65.2307
+    },
+    {
+      "net": "/VBUS_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 10.8392
+    },
+    {
+      "net": "/VBUS_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 3.37
+    },
+    {
+      "net": "/VBUS_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 1.0,
+      "length_mm": 0.195
+    },
+    {
+      "net": "/VBUS_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "length_mm": 16.7142
+    },
+    {
+      "net": "/VBUS_RAW",
+      "layer": "B.Cu",
+      "width_mm": 1.5,
+      "length_mm": 8.1
+    },
+    {
+      "net": "/VBUS_RAW",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 6.0299
+    },
+    {
+      "net": "/VBUS_RAW",
+      "layer": "F.Cu",
+      "width_mm": 1.0,
+      "length_mm": 4.2275
+    },
+    {
+      "net": "/VIN_CTRL",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 2.611
+    },
+    {
+      "net": "/VIN_CTRL",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.5155
+    },
+    {
+      "net": "/VOUT",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 34.6058
+    },
+    {
+      "net": "/VOUT",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 6.0
+    },
+    {
+      "net": "/VOUT",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "length_mm": 29.7069
+    },
+    {
+      "net": "/VOUT",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "length_mm": 40.74
+    },
+    {
+      "net": "/VSET",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 23.5961
+    },
+    {
+      "net": "/VSET",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 10.16
+    }
+  ],
+  "errors": [],
+  "status": "PASS",
+  "scope": "Native CAD consistency and routing structure only; run DRC separately. No physical validation."
+}

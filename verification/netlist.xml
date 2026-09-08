@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>hardware/pd-bench.kicad_sch</source>
+    <date>2026-09-06T15:27:17</date>
+    <tool>Eeschema 10.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PD BENCH | USB-C POWER BREAKOUT</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2026-09-05</date>
+        <source>pd-bench.kicad_sch</source>
+        <comment number="1" value="DESIGN STAGE / UNBUILT / NOT RELEASED FOR FABRICATION"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7 uF / 50 V</value>
+      <footprint>PD_Bench:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN">GRM31CR71H475KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">PD_Bench:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM31CR71H475KA12L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eda03c45-bd2e-4cd3-9caf-3912939995cc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>1 uF / 50 V</value>
+      <footprint>PD_Bench:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C2012X7R1H105K125AB</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Footprint">PD_Bench:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C2012X7R1H105K125AB"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93904f19-1a3f-4f85-9b55-56c5d76e76e4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>1 uF / 50 V</value>
+      <footprint>PD_Bench:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C2012X7R1H105K125AB</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Footprint">PD_Bench:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C2012X7R1H105K125AB"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25bd177f-4d4b-40b0-a7c1-eb024660fccd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>12 V gate clamp</value>
+      <footprint>PD_Bench:D_SOD-123</footprint>
+      <fields>
+        <field name="MPN">BZT52-C12X</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Footprint">PD_Bench:D_SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_D_Zener" description="Zener diode"/>
+      <property name="MPN" value="BZT52-C12X"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>808a9c55-686d-4f4f-b06e-f173e52ad1fa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>INPUT / amber</value>
+      <footprint>PD_Bench:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">LTST-C170KSKT</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Footprint">PD_Bench:LED_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_LED" description="Light emitting diode"/>
+      <property name="MPN" value="LTST-C170KSKT"/>
+      <property name="Manufacturer" value="Lite-On"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>836adfc4-791f-4b75-af9b-5a3626762933</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>OUTPUT / green</value>
+      <footprint>PD_Bench:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">LTST-C170KGKT</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Footprint">PD_Bench:LED_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_LED" description="Light emitting diode"/>
+      <property name="MPN" value="LTST-C170KGKT"/>
+      <property name="Manufacturer" value="Lite-On"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92b26b3d-4730-416a-a09e-9463f310c1ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>3 A / 125 VDC</value>
+      <footprint>PD_Bench:Fuse_Littelfuse-NANO2-451_453</footprint>
+      <fields>
+        <field name="MPN">0451003.MRL</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Footprint">PD_Bench:Fuse_Littelfuse-NANO2-451_453</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_Fuse" description="Fuse"/>
+      <property name="MPN" value="0451003.MRL"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81a32980-dbbe-4b8c-896b-949521becfc8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>USB4105-GF-A</value>
+      <footprint>PD_Bench:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</footprint>
+      <fields>
+        <field name="MPN">USB4105-GF-A</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="Footprint">PD_Bench:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Connector_USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
+      <property name="MPN" value="USB4105-GF-A"/>
+      <property name="Manufacturer" value="GCT"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8247e1a5-8e4f-4c1c-b9a2-a53062c892c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="SH"/>
+            <pin num="A1"/>
+            <pin num="A12"/>
+            <pin num="B1"/>
+            <pin num="B12"/>
+            <pin num="A4"/>
+            <pin num="A9"/>
+            <pin num="B4"/>
+            <pin num="B9"/>
+            <pin num="A5"/>
+            <pin num="B5"/>
+            <pin num="A7"/>
+            <pin num="B7"/>
+            <pin num="A6"/>
+            <pin num="B6"/>
+            <pin num="A8"/>
+            <pin num="B8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>DC OUTPUT</value>
+      <footprint>PD_Bench:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1715022</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Footprint">PD_Bench:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="1715022"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f66bb52-5186-482b-8f1a-3cbc864dc044</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>VOLTAGE REQUEST</value>
+      <footprint>PD_Bench:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">61301021121</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Footprint">PD_Bench:PinHeader_2x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Connector_Generic_Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="61301021121"/>
+      <property name="Manufacturer" value="Wurth Elektronik"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>991211a6-f559-432c-9a5e-669cdaaaa857</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>OUTPUT ENABLE</value>
+      <footprint>PD_Bench:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">61300211121</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Footprint">PD_Bench:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="61300211121"/>
+      <property name="Manufacturer" value="Wurth Elektronik"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75e02af6-5c1c-42ff-8395-c83a68362b43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>DMP4015SK3-13</value>
+      <footprint>PD_Bench:TO-252-2</footprint>
+      <fields>
+        <field name="MPN">DMP4015SK3-13</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Footprint">PD_Bench:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="DMP4015SK3" description="40 V P-channel MOSFET, TO-252, G1 D2 S3"/>
+      <property name="MPN" value="DMP4015SK3-13"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="Single P-Channel HEXFET Power MOSFET"/>
+      <property name="ki_fp_filters" value="TO?220*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>457a097a-1422-4fea-b84d-a44d2b3bdb15</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10 ohm</value>
+      <footprint>PD_Bench:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-0710RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">PD_Bench:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-0710RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fde1bff-c3ac-42da-8a4a-b5491ca2336e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>13.7 kohm 1%</value>
+      <footprint>PD_Bench:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-0713K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">PD_Bench:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-0713K7L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aef1a458-764c-41ac-a442-a030346bbb89</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100 kohm</value>
+      <footprint>PD_Bench:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">PD_Bench:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c78d2cc-fc70-418d-b01d-f2cd351b4bd4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>2.49 kohm / 0.25 W</value>
+      <footprint>PD_Bench:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN">RC1206FR-072K49L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">PD_Bench:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC1206FR-072K49L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03c77e08-a422-409d-9419-f530e99af0f2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>6.04 kohm 1%</value>
+      <footprint>PD_Bench:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-076K04L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">PD_Bench:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-076K04L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a2e8c40-ea06-4591-ba51-135e65016602</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10 kohm 1%</value>
+      <footprint>PD_Bench:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">PD_Bench:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1eeb8ab0-dd60-49ba-8335-54e041282dc8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>14 kohm 1%</value>
+      <footprint>PD_Bench:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-0714KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">PD_Bench:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0805FR-0714KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15e551ac-f1f5-4ab8-9cc9-b4d96fd4599a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>6.8 kohm / 0.25 W</value>
+      <footprint>PD_Bench:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN">RC1206FR-076K8L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">PD_Bench:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC1206FR-076K8L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2de26726-a9a1-4228-a322-87447858c6d3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>6.8 kohm / 0.25 W</value>
+      <footprint>PD_Bench:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN">RC1206FR-076K8L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">PD_Bench:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC1206FR-076K8L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4bed747-267c-4c92-9a00-cda613358d03</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>10 kohm / 0.25 W</value>
+      <footprint>PD_Bench:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN">RC1206FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">PD_Bench:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC1206FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83bf0b73-22fe-4000-9e1b-461b7006c995</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>VBUS_FUSED</value>
+      <footprint>PD_Bench:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Manufacturer">PCB</field>
+        <field name="Footprint">PD_Bench:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Manufacturer" value="PCB"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b7c5824-21d1-4a8b-9e95-89cb38b98aa5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>VOUT</value>
+      <footprint>PD_Bench:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Manufacturer">PCB</field>
+        <field name="Footprint">PD_Bench:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Manufacturer" value="PCB"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32025484-a492-4440-9ca3-32696de8c21d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>GND</value>
+      <footprint>PD_Bench:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Manufacturer">PCB</field>
+        <field name="Footprint">PD_Bench:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Manufacturer" value="PCB"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6822e582-3f8c-4210-8115-fc660c3b3379</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>HUSB238_002DD</value>
+      <footprint>PD_Bench:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm</footprint>
+      <fields>
+        <field name="MPN">HUSB238_002DD</field>
+        <field name="Manufacturer">Hynetek</field>
+        <field name="Footprint">PD_Bench:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Interface_USB_HUSB238_xxxDD" description="USB-PD Sink IC Port Controller, VBUS = 3..25V, USB Type-C rev. 1.4, USB-PD rev. 3.0, BC1.2, WDFN-10 / WSON-10"/>
+      <property name="MPN" value="HUSB238_002DD"/>
+      <property name="Manufacturer" value="Hynetek"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="USB-C I2C USB-Power-Delivery HUSB238_001DD HUSB238_002DD HUSB238_003DD HUSB238_004DD HUSB238_005DD HUSB238_006DD"/>
+      <property name="ki_fp_filters" value="*3x3mm?P0.5mm?EP1.8*x2.5*mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>769b145d-7ff0-4345-87e8-f08924c6ada5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TVS2200DRVR</value>
+      <footprint>PD_Bench:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
+      <fields>
+        <field name="MPN">TVS2200DRVR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Footprint">PD_Bench:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PD_Bench" part="Power_Protection_TVS2200DRV" description="Flat-Clamp Surge Protection Device. 22Vrwm, WSON-6"/>
+      <property name="MPN" value="TVS2200DRVR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value="pd-bench"/>
+      <property name="Sheetfile" value="pd-bench.kicad_sch"/>
+      <property name="ki_keywords" value="EMI, ESD, TVS protection transient"/>
+      <property name="ki_fp_filters" value="WSON*1EP*2x2mm*P0.65mm*EP1x1.6mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1635661-ec00-4e87-beb0-bb28937668c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="PD_Bench" part="Connector_Generic_Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OUTPUT ENABLE</field>
+        <field name="Footprint">PD_Bench:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PD_Bench" part="Connector_Generic_Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">VOLTAGE REQUEST</field>
+        <field name="Footprint">PD_Bench:PinHeader_2x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PD_Bench" part="Connector_TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">VBUS_FUSED</field>
+        <field name="Footprint">PD_Bench:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PD_Bench" part="Connector_USB_C_Receptacle_USB2.0_16P">
+      <description>USB 2.0-only 16P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB4105-GF-A</field>
+        <field name="Footprint">PD_Bench:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 16P Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="SH" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PD_Bench" part="DMP4015SK3">
+      <description>40 V P-channel MOSFET, TO-252, G1 D2 S3</description>
+      <docs>https://www.diodes.com/datasheet/download/DMP4015SK3.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMP4015SK3-13</field>
+        <field name="Footprint">PD_Bench:TO-252-2</field>
+        <field name="Datasheet">https://www.diodes.com/datasheet/download/DMP4015SK3.pdf</field>
+        <field name="Description">40 V P-channel MOSFET, TO-252, G1 D2 S3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PD_Bench" part="Device_C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7 uF / 50 V</field>
+        <field name="Footprint">PD_Bench:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PD_Bench" part="Device_D_Zener">
+      <description>Zener diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">12 V gate clamp</field>
+        <field name="Footprint">PD_Bench:D_SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PD_Bench" part="Device_Fuse">
+      <description>Fuse</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">3 A / 125 VDC</field>
+        <field name="Footprint">PD_Bench:Fuse_Littelfuse-NANO2-451_453</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PD_Bench" part="Device_LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">INPUT / amber</field>
+        <field name="Footprint">PD_Bench:LED_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PD_Bench" part="Device_R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10 ohm</field>
+        <field name="Footprint">PD_Bench:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PD_Bench" part="Interface_USB_HUSB238_xxxDD">
+      <description>USB-PD Sink IC Port Controller, VBUS = 3..25V, USB Type-C rev. 1.4, USB-PD rev. 3.0, BC1.2, WDFN-10 / WSON-10</description>
+      <docs>https://cdn-learn.adafruit.com/assets/assets/000/125/150/original/husb238_datasheet_full.pdf</docs>
+      <footprints>
+        <fp>*3x3mm?P0.5mm?EP1.8*x2.5*mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HUSB238_002DD</field>
+        <field name="Footprint">PD_Bench:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm</field>
+        <field name="Datasheet">https://cdn-learn.adafruit.com/assets/assets/000/125/150/original/husb238_datasheet_full.pdf</field>
+        <field name="Description">USB-PD Sink IC Port Controller, VBUS = 3..25V, USB Type-C rev. 1.4, USB-PD rev. 3.0, BC1.2, WDFN-10 / WSON-10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="D+" type="bidirectional"/>
+        <pin num="3" name="D-" type="bidirectional"/>
+        <pin num="4" name="CC1" type="bidirectional"/>
+        <pin num="5" name="CC2" type="bidirectional"/>
+        <pin num="6" name="SDA" type="bidirectional"/>
+        <pin num="7" name="SCL" type="input"/>
+        <pin num="8" name="VSET" type="input"/>
+        <pin num="9" name="ISET" type="input"/>
+        <pin num="10" name="GATE" type="open_collector"/>
+        <pin num="11" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PD_Bench" part="Power_Protection_TVS2200DRV">
+      <description>Flat-Clamp Surge Protection Device. 22Vrwm, WSON-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tvs2200.pdf</docs>
+      <footprints>
+        <fp>WSON*1EP*2x2mm*P0.65mm*EP1x1.6mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TVS2200DRVR</field>
+        <field name="Footprint">PD_Bench:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tvs2200.pdf</field>
+        <field name="Description">Flat-Clamp Surge Protection Device. 22Vrwm, WSON-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="IN" type="passive"/>
+        <pin num="5" name="IN" type="passive"/>
+        <pin num="6" name="IN" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="PD_Bench">
+      <uri>${KIPRJMOD}/libraries/PD_Bench.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CC1" class="Default">
+      <node ref="J1" pin="A5" pinfunction="CC1_A5" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="CC1_4" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/CC2" class="Default">
+      <node ref="J1" pin="B5" pinfunction="CC2_B5" pintype="bidirectional"/>
+      <node ref="U1" pin="5" pinfunction="CC2_5" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/ENABLE_GATE" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND_A1" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND_A12" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND_B1" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND_B12" pintype="passive"/>
+      <node ref="J1" pin="SH" pinfunction="SHIELD_SH" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND_11" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GND_7" pintype="passive"/>
+    </net>
+    <net code="5" name="/ISET" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="ISET_9" pintype="input"/>
+    </net>
+    <net code="6" name="/LED_IN_A" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/LED_OUT_A" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/MOS_GATE" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/PD_GATE" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GATE_10" pintype="open_collector"/>
+    </net>
+    <net code="10" name="/SET9" class="Default">
+      <node ref="J3" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/SET12" class="Default">
+      <node ref="J3" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/SET15" class="Default">
+      <node ref="J3" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/VBUS_FUSED" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="IN_4" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="IN_5" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IN_6" pintype="passive"/>
+    </net>
+    <net code="14" name="/VBUS_RAW" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS_A4" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
+    </net>
+    <net code="15" name="/VIN_CTRL" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+    </net>
+    <net code="16" name="/VOUT" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="17" name="/VSET" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VSET_8" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(J1-D+-PadA6)" class="Default">
+      <node ref="J1" pin="A6" pinfunction="D+_A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J1-D+-PadB6)" class="Default">
+      <node ref="J1" pin="B6" pinfunction="D+_B6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J1-D--PadA7)" class="Default">
+      <node ref="J1" pin="A7" pinfunction="D-_A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J1-D--PadB7)" class="Default">
+      <node ref="J1" pin="B7" pinfunction="D-_B7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J1-SBU1-PadA8)" class="Default">
+      <node ref="J1" pin="A8" pinfunction="SBU1_A8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(J1-SBU2-PadB8)" class="Default">
+      <node ref="J1" pin="B8" pinfunction="SBU2_B8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(J3-Pin_10-Pad10)" class="Default">
+      <node ref="J3" pin="10" pinfunction="Pin_10_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-D+-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="D+_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-D--Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="D-_3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-SCL-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="SCL_7" pintype="input+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-SDA-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="SDA_6" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

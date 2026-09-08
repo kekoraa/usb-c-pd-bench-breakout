@@ -1,0 +1,10 @@
+PD Bench PCB/package revision 0.2 - design stage / unbuilt
+KiCad CLI 10.0.5
+PASS: schematic ERC, 0 errors and 0 warnings.
+PASS: intended pin-map check, 27 components / 89 pin assignments / 17 invariants.
+PASS: native board audit, 89 linked assignments / 92 physical numbered pads.
+PASS: DRC, 0 violations / 0 unconnected items / 0 schematic parity issues.
+Routing: 112 track segments / 48 vias / 3 filled copper zones / 4 mounting keepouts.
+DRC scope includes documented J1-specific rules; no added exclusions.
+OPEN: fabricator acceptance of J1 nominal 0.1944 mm hole spacing and normal release review.
+NOT PERFORMED: fabrication, assembly, physical tests, thermal/protection qualification, simulation, compliance testing.

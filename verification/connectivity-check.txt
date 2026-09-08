@@ -1,0 +1,2 @@
+PASS: 27 components, 89 pin assignments, 17 critical pin-net invariants, current-setting value and 20 V parking pin.
+This verifies file consistency, not circuit performance or manufacturing readiness.

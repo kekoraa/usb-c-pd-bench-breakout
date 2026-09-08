@@ -1,0 +1,688 @@
+{
+  "root_uuid": "55d8b91b-3252-4e9c-8d77-06edad472d08",
+  "components": [
+    {
+      "ref": "J1",
+      "lib": "Connector",
+      "name": "USB_C_Receptacle_USB2.0_16P",
+      "value": "USB4105-GF-A",
+      "fp": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "nets": {
+        "A1": "GND",
+        "A4": "VBUS_RAW",
+        "A5": "CC1",
+        "A6": null,
+        "A7": null,
+        "A8": null,
+        "A9": "VBUS_RAW",
+        "A12": "GND",
+        "B1": "GND",
+        "B4": "VBUS_RAW",
+        "B5": "CC2",
+        "B6": null,
+        "B7": null,
+        "B8": null,
+        "B9": "VBUS_RAW",
+        "B12": "GND",
+        "SH": "GND"
+      },
+      "x": 40.64,
+      "y": 71.12,
+      "pcb": [
+        52.5,
+        75.0,
+        -90.0
+      ],
+      "mpn": "USB4105-GF-A",
+      "mfr": "GCT",
+      "description": "USB-C power input; all VBUS and ground contacts used",
+      "uuid": "8247e1a5-8e4f-4c1c-b9a2-a53062c892c9",
+      "local": "Connector_USB_C_Receptacle_USB2.0_16P",
+      "footprint": "PD_Bench:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+    },
+    {
+      "ref": "F1",
+      "lib": "Device",
+      "name": "Fuse",
+      "value": "3 A / 125 VDC",
+      "fp": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "nets": {
+        "1": "VBUS_RAW",
+        "2": "VBUS_FUSED"
+      },
+      "x": 93.98,
+      "y": 55.88,
+      "pcb": [
+        64.0,
+        73.0,
+        0.0
+      ],
+      "mpn": "0451003.MRL",
+      "mfr": "Littelfuse",
+      "description": "One-time fuse; 2 A design load; not a 2 A current limiter",
+      "uuid": "81a32980-dbbe-4b8c-896b-949521becfc8",
+      "local": "Device_Fuse",
+      "footprint": "PD_Bench:Fuse_Littelfuse-NANO2-451_453"
+    },
+    {
+      "ref": "U2",
+      "lib": "Power_Protection",
+      "name": "TVS2200DRV",
+      "value": "TVS2200DRVR",
+      "fp": "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+      "nets": {
+        "1": "GND",
+        "2": "GND",
+        "3": "GND",
+        "4": "VBUS_FUSED",
+        "5": "VBUS_FUSED",
+        "6": "VBUS_FUSED",
+        "7": "GND"
+      },
+      "x": 121.92,
+      "y": 78.74,
+      "pcb": [
+        69.0,
+        78.0,
+        0.0
+      ],
+      "mpn": "TVS2200DRVR",
+      "mfr": "Texas Instruments",
+      "description": "22 V VBUS transient suppressor",
+      "uuid": "f1635661-ec00-4e87-beb0-bb28937668c8",
+      "local": "Power_Protection_TVS2200DRV",
+      "footprint": "PD_Bench:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+    },
+    {
+      "ref": "C1",
+      "lib": "Device",
+      "name": "C",
+      "value": "4.7 uF / 50 V",
+      "fp": "Capacitor_SMD:C_1206_3216Metric",
+      "nets": {
+        "1": "VBUS_FUSED",
+        "2": "GND"
+      },
+      "x": 93.98,
+      "y": 96.52,
+      "pcb": [
+        72.0,
+        74.0,
+        90.0
+      ],
+      "mpn": "GRM31CR71H475KA12L",
+      "mfr": "Murata",
+      "description": "X7R input capacitor; check effective capacitance at 20 V",
+      "uuid": "eda03c45-bd2e-4cd3-9caf-3912939995cc",
+      "local": "Device_C",
+      "footprint": "PD_Bench:C_1206_3216Metric"
+    },
+    {
+      "ref": "R1",
+      "lib": "Device",
+      "name": "R",
+      "value": "10 ohm",
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "VBUS_FUSED",
+        "2": "VIN_CTRL"
+      },
+      "x": 162.56,
+      "y": 53.34,
+      "pcb": [
+        64.0,
+        76.5,
+        180.0
+      ],
+      "mpn": "RC0805FR-0710RL",
+      "mfr": "Yageo",
+      "description": "Controller supply filter",
+      "uuid": "9fde1bff-c3ac-42da-8a4a-b5491ca2336e",
+      "local": "Device_R",
+      "footprint": "PD_Bench:R_0805_2012Metric"
+    },
+    {
+      "ref": "C2",
+      "lib": "Device",
+      "name": "C",
+      "value": "1 uF / 50 V",
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "VIN_CTRL",
+        "2": "GND"
+      },
+      "x": 198.12,
+      "y": 53.34,
+      "pcb": [
+        64.0,
+        79.0,
+        0.0
+      ],
+      "mpn": "C2012X7R1H105K125AB",
+      "mfr": "TDK",
+      "description": "Controller decoupling",
+      "uuid": "93904f19-1a3f-4f85-9b55-56c5d76e76e4",
+      "local": "Device_C",
+      "footprint": "PD_Bench:C_0805_2012Metric"
+    },
+    {
+      "ref": "U1",
+      "lib": "Interface_USB",
+      "name": "HUSB238_xxxDD",
+      "value": "HUSB238_002DD",
+      "fp": "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm",
+      "nets": {
+        "1": "VIN_CTRL",
+        "2": null,
+        "3": null,
+        "4": "CC1",
+        "5": "CC2",
+        "6": null,
+        "7": null,
+        "8": "VSET",
+        "9": "ISET",
+        "10": "PD_GATE",
+        "11": "GND"
+      },
+      "x": 180.34,
+      "y": 96.52,
+      "pcb": [
+        66.0,
+        82.0,
+        0.0
+      ],
+      "mpn": "HUSB238_002DD",
+      "mfr": "Hynetek",
+      "description": "Autonomous PD sink; SOP-prime emulation disabled",
+      "uuid": "769b145d-7ff0-4345-87e8-f08924c6ada5",
+      "local": "Interface_USB_HUSB238_xxxDD",
+      "footprint": "PD_Bench:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+    },
+    {
+      "ref": "R2",
+      "lib": "Device",
+      "name": "R",
+      "value": "13.7 kohm 1%",
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "ISET",
+        "2": "GND"
+      },
+      "x": 223.52,
+      "y": 101.6,
+      "pcb": [
+        72.0,
+        82.5,
+        0.0
+      ],
+      "mpn": "RC0805FR-0713K7L",
+      "mfr": "Yageo",
+      "description": "2.25 A request leaves overhead for a 2 A output; not current sensing",
+      "uuid": "aef1a458-764c-41ac-a442-a030346bbb89",
+      "local": "Device_R",
+      "footprint": "PD_Bench:R_0805_2012Metric"
+    },
+    {
+      "ref": "Q1",
+      "lib": "Transistor_FET",
+      "name": "IRF4905",
+      "value": "DMP4015SK3-13",
+      "fp": "Package_TO_SOT_SMD:TO-252-2",
+      "nets": {
+        "1": "MOS_GATE",
+        "2": "VOUT",
+        "3": "VBUS_FUSED"
+      },
+      "x": 294.64,
+      "y": 60.96,
+      "pcb": [
+        87.0,
+        73.0,
+        0.0
+      ],
+      "mpn": "DMP4015SK3-13",
+      "mfr": "Diodes Incorporated",
+      "description": "40 V P-MOSFET; G1 D2 S3; tab is drain",
+      "uuid": "457a097a-1422-4fea-b84d-a44d2b3bdb15",
+      "local": "DMP4015SK3",
+      "footprint": "PD_Bench:TO-252-2"
+    },
+    {
+      "ref": "R3",
+      "lib": "Device",
+      "name": "R",
+      "value": "100 kohm",
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "VBUS_FUSED",
+        "2": "MOS_GATE"
+      },
+      "x": 261.62,
+      "y": 93.98,
+      "pcb": [
+        78.0,
+        69.0,
+        0.0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "mfr": "Yageo",
+      "description": "Gate-source pull-up; holds output off without enable shunt",
+      "uuid": "2c78d2cc-fc70-418d-b01d-f2cd351b4bd4",
+      "local": "Device_R",
+      "footprint": "PD_Bench:R_0805_2012Metric"
+    },
+    {
+      "ref": "D1",
+      "lib": "Device",
+      "name": "D_Zener",
+      "value": "12 V gate clamp",
+      "fp": "Diode_SMD:D_SOD-123",
+      "nets": {
+        "1": "VBUS_FUSED",
+        "2": "MOS_GATE"
+      },
+      "x": 294.64,
+      "y": 93.98,
+      "pcb": [
+        78.0,
+        65.0,
+        0.0
+      ],
+      "mpn": "BZT52-C12X",
+      "mfr": "Nexperia",
+      "description": "Zener cathode to source; anode to gate",
+      "uuid": "808a9c55-686d-4f4f-b06e-f173e52ad1fa",
+      "local": "Device_D_Zener",
+      "footprint": "PD_Bench:D_SOD-123"
+    },
+    {
+      "ref": "R4",
+      "lib": "Device",
+      "name": "R",
+      "value": "2.49 kohm / 0.25 W",
+      "fp": "Resistor_SMD:R_1206_3216Metric",
+      "nets": {
+        "1": "MOS_GATE",
+        "2": "ENABLE_GATE"
+      },
+      "x": 325.12,
+      "y": 93.98,
+      "pcb": [
+        86.0,
+        64.0,
+        0.0
+      ],
+      "mpn": "RC1206FR-072K49L",
+      "mfr": "Yageo",
+      "description": "Limits gate sink and clamp current",
+      "uuid": "03c77e08-a422-409d-9419-f530e99af0f2",
+      "local": "Device_R",
+      "footprint": "PD_Bench:R_1206_3216Metric"
+    },
+    {
+      "ref": "J4",
+      "lib": "Connector_Generic",
+      "name": "Conn_01x02",
+      "value": "OUTPUT ENABLE",
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "nets": {
+        "1": "ENABLE_GATE",
+        "2": "PD_GATE"
+      },
+      "x": 365.76,
+      "y": 93.98,
+      "pcb": [
+        111.0,
+        84.0,
+        0.0
+      ],
+      "mpn": "61300211121",
+      "mfr": "Wurth Elektronik",
+      "description": "Shunt fitted permits controller to turn on Q1; default open",
+      "uuid": "75e02af6-5c1c-42ff-8395-c83a68362b43",
+      "local": "Connector_Generic_Conn_01x02",
+      "footprint": "PD_Bench:PinHeader_1x02_P2.54mm_Vertical"
+    },
+    {
+      "ref": "J2",
+      "lib": "Connector_Generic",
+      "name": "Conn_01x02",
+      "value": "DC OUTPUT",
+      "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",
+      "nets": {
+        "1": "VOUT",
+        "2": "GND"
+      },
+      "x": 368.3,
+      "y": 55.88,
+      "pcb": [
+        120.0,
+        64.0,
+        180.0
+      ],
+      "mpn": "1715022",
+      "mfr": "Phoenix Contact",
+      "description": "2-way screw terminal; 5.00 mm pitch",
+      "uuid": "8f66bb52-5186-482b-8f1a-3cbc864dc044",
+      "local": "Connector_Generic_Conn_01x02",
+      "footprint": "PD_Bench:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+    },
+    {
+      "ref": "C3",
+      "lib": "Device",
+      "name": "C",
+      "value": "1 uF / 50 V",
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "VOUT",
+        "2": "GND"
+      },
+      "x": 332.74,
+      "y": 55.88,
+      "pcb": [
+        105.0,
+        68.0,
+        90.0
+      ],
+      "mpn": "C2012X7R1H105K125AB",
+      "mfr": "TDK",
+      "description": "Small output capacitor; large external load capacitance unqualified",
+      "uuid": "25bd177f-4d4b-40b0-a7c1-eb024660fccd",
+      "local": "Device_C",
+      "footprint": "PD_Bench:C_0805_2012Metric"
+    },
+    {
+      "ref": "J3",
+      "lib": "Connector_Generic",
+      "name": "Conn_02x05_Odd_Even",
+      "value": "VOLTAGE REQUEST",
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical",
+      "nets": {
+        "1": "VSET",
+        "2": "GND",
+        "3": "VSET",
+        "4": "SET9",
+        "5": "VSET",
+        "6": "SET12",
+        "7": "VSET",
+        "8": "SET15",
+        "9": "VSET",
+        "10": null
+      },
+      "x": 40.64,
+      "y": 157.48,
+      "pcb": [
+        74.0,
+        102.0,
+        0.0
+      ],
+      "mpn": "61301021121",
+      "mfr": "Wurth Elektronik",
+      "description": "One shunt only; 1-2=5 V; parked 9-10=open=20 V",
+      "uuid": "991211a6-f559-432c-9a5e-669cdaaaa857",
+      "local": "Connector_Generic_Conn_02x05_Odd_Even",
+      "footprint": "PD_Bench:PinHeader_2x05_P2.54mm_Vertical"
+    },
+    {
+      "ref": "R5",
+      "lib": "Device",
+      "name": "R",
+      "value": "6.04 kohm 1%",
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "SET9",
+        "2": "GND"
+      },
+      "x": 91.44,
+      "y": 147.32,
+      "pcb": [
+        84.0,
+        104.54,
+        0.0
+      ],
+      "mpn": "RC0805FR-076K04L",
+      "mfr": "Yageo",
+      "description": "Voltage request resistor",
+      "uuid": "0a2e8c40-ea06-4591-ba51-135e65016602",
+      "local": "Device_R",
+      "footprint": "PD_Bench:R_0805_2012Metric"
+    },
+    {
+      "ref": "R6",
+      "lib": "Device",
+      "name": "R",
+      "value": "10 kohm 1%",
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "SET12",
+        "2": "GND"
+      },
+      "x": 91.44,
+      "y": 172.72,
+      "pcb": [
+        84.0,
+        107.08,
+        0.0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "mfr": "Yageo",
+      "description": "Voltage request resistor",
+      "uuid": "1eeb8ab0-dd60-49ba-8335-54e041282dc8",
+      "local": "Device_R",
+      "footprint": "PD_Bench:R_0805_2012Metric"
+    },
+    {
+      "ref": "R7",
+      "lib": "Device",
+      "name": "R",
+      "value": "14 kohm 1%",
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "SET15",
+        "2": "GND"
+      },
+      "x": 91.44,
+      "y": 198.12,
+      "pcb": [
+        84.0,
+        109.62,
+        0.0
+      ],
+      "mpn": "RC0805FR-0714KL",
+      "mfr": "Yageo",
+      "description": "Voltage request resistor",
+      "uuid": "15e551ac-f1f5-4ab8-9cc9-b4d96fd4599a",
+      "local": "Device_R",
+      "footprint": "PD_Bench:R_0805_2012Metric"
+    },
+    {
+      "ref": "R8",
+      "lib": "Device",
+      "name": "R",
+      "value": "6.8 kohm / 0.25 W",
+      "fp": "Resistor_SMD:R_1206_3216Metric",
+      "nets": {
+        "1": "VBUS_FUSED",
+        "2": "LED_IN_A"
+      },
+      "x": 167.64,
+      "y": 152.4,
+      "pcb": [
+        96.0,
+        97.0,
+        0.0
+      ],
+      "mpn": "RC1206FR-076K8L",
+      "mfr": "Yageo",
+      "description": "Input LED current limit",
+      "uuid": "2de26726-a9a1-4228-a322-87447858c6d3",
+      "local": "Device_R",
+      "footprint": "PD_Bench:R_1206_3216Metric"
+    },
+    {
+      "ref": "D2",
+      "lib": "Device",
+      "name": "LED",
+      "value": "INPUT / amber",
+      "fp": "LED_SMD:LED_0805_2012Metric",
+      "nets": {
+        "1": "GND",
+        "2": "LED_IN_A"
+      },
+      "x": 167.64,
+      "y": 182.88,
+      "pcb": [
+        102.0,
+        97.0,
+        180.0
+      ],
+      "mpn": "LTST-C170KSKT",
+      "mfr": "Lite-On",
+      "description": "Rail-present indicator; not contract status",
+      "uuid": "836adfc4-791f-4b75-af9b-5a3626762933",
+      "local": "Device_LED",
+      "footprint": "PD_Bench:LED_0805_2012Metric"
+    },
+    {
+      "ref": "R9",
+      "lib": "Device",
+      "name": "R",
+      "value": "6.8 kohm / 0.25 W",
+      "fp": "Resistor_SMD:R_1206_3216Metric",
+      "nets": {
+        "1": "VOUT",
+        "2": "LED_OUT_A"
+      },
+      "x": 213.36,
+      "y": 152.4,
+      "pcb": [
+        96.0,
+        105.0,
+        0.0
+      ],
+      "mpn": "RC1206FR-076K8L",
+      "mfr": "Yageo",
+      "description": "Output LED current limit",
+      "uuid": "e4bed747-267c-4c92-9a00-cda613358d03",
+      "local": "Device_R",
+      "footprint": "PD_Bench:R_1206_3216Metric"
+    },
+    {
+      "ref": "D3",
+      "lib": "Device",
+      "name": "LED",
+      "value": "OUTPUT / green",
+      "fp": "LED_SMD:LED_0805_2012Metric",
+      "nets": {
+        "1": "GND",
+        "2": "LED_OUT_A"
+      },
+      "x": 213.36,
+      "y": 182.88,
+      "pcb": [
+        102.0,
+        105.0,
+        180.0
+      ],
+      "mpn": "LTST-C170KGKT",
+      "mfr": "Lite-On",
+      "description": "Output-present indicator; not voltage readback",
+      "uuid": "92b26b3d-4730-416a-a09e-9463f310c1ba",
+      "local": "Device_LED",
+      "footprint": "PD_Bench:LED_0805_2012Metric"
+    },
+    {
+      "ref": "R10",
+      "lib": "Device",
+      "name": "R",
+      "value": "10 kohm / 0.25 W",
+      "fp": "Resistor_SMD:R_1206_3216Metric",
+      "nets": {
+        "1": "VOUT",
+        "2": "GND"
+      },
+      "x": 259.08,
+      "y": 157.48,
+      "pcb": [
+        109.0,
+        79.0,
+        0.0
+      ],
+      "mpn": "RC1206FR-0710KL",
+      "mfr": "Yageo",
+      "description": "Passive output discharge",
+      "uuid": "83bf0b73-22fe-4000-9e1b-461b7006c995",
+      "local": "Device_R",
+      "footprint": "PD_Bench:R_1206_3216Metric"
+    },
+    {
+      "ref": "TP1",
+      "lib": "Connector",
+      "name": "TestPoint",
+      "value": "VBUS_FUSED",
+      "fp": "TestPoint:TestPoint_Pad_D2.0mm",
+      "nets": {
+        "1": "VBUS_FUSED"
+      },
+      "x": 297.18,
+      "y": 165.1,
+      "pcb": [
+        111.0,
+        97.0,
+        0.0
+      ],
+      "mpn": "PCB pad",
+      "mfr": "PCB",
+      "description": "DMM / oscilloscope probe point; not a load connector",
+      "uuid": "5b7c5824-21d1-4a8b-9e95-89cb38b98aa5",
+      "local": "Connector_TestPoint",
+      "footprint": "PD_Bench:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "ref": "TP2",
+      "lib": "Connector",
+      "name": "TestPoint",
+      "value": "VOUT",
+      "fp": "TestPoint:TestPoint_Pad_D2.0mm",
+      "nets": {
+        "1": "VOUT"
+      },
+      "x": 327.66,
+      "y": 165.1,
+      "pcb": [
+        116.0,
+        97.0,
+        0.0
+      ],
+      "mpn": "PCB pad",
+      "mfr": "PCB",
+      "description": "DMM / oscilloscope probe point; not a load connector",
+      "uuid": "32025484-a492-4440-9ca3-32696de8c21d",
+      "local": "Connector_TestPoint",
+      "footprint": "PD_Bench:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "ref": "TP3",
+      "lib": "Connector",
+      "name": "TestPoint",
+      "value": "GND",
+      "fp": "TestPoint:TestPoint_Pad_D2.0mm",
+      "nets": {
+        "1": "GND"
+      },
+      "x": 358.14,
+      "y": 165.1,
+      "pcb": [
+        121.0,
+        97.0,
+        0.0
+      ],
+      "mpn": "PCB pad",
+      "mfr": "PCB",
+      "description": "DMM / oscilloscope probe point; not a load connector",
+      "uuid": "6822e582-3f8c-4210-8115-fc660c3b3379",
+      "local": "Connector_TestPoint",
+      "footprint": "PD_Bench:TestPoint_Pad_D2.0mm"
+    }
+  ]
+}
